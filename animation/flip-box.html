@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.flip-box {
+  width: 400px;
+  height: 400px;
+  perspective: 1500px;
+}
+
+.flip-box-inner {
+  margin-top: 159px;
+  margin-left: 363px;
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  color: #fff;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-box-back {
+  color: #fff;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateX(180deg);
+  top: 0;
+  position: relative;
+  align-items: center;
+}
+</style>
+</head>
+<body>
+
+<h1><center>Farhan Bashir</center></h1>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2> <center><img src="1693478721981.jpg" alt=""></center></h2>
+    </div>
+    <div class="flip-box-back">
+      <h2> <center><img src="1693478721981.jpg" alt=""></center></h2>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

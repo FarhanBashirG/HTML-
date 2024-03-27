@@ -1,0 +1,12 @@
+function toggle_password() {
+    let pass_field = document.getElementById("password_field");
+    let type_attr = pass_field.getAttribute('type');
+    if(type_attr == 'password'){
+        pass_field.setAttribute('type', 'text');
+    }
+    else {
+        pass_field.setAttribute('type', 'password');
+    }
+}
+
+// document.querySelector("input[type='checkbox']");

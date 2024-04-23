@@ -1,0 +1,133 @@
+@import url('https://fonts.cdnfonts.com/css/more-sugar');
+
+html,
+body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+
+body {
+  color: white !important;
+  font-family: 'More Sugar', Display !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.image {
+  background-image: url(./../img/website\ background.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 1000px;
+
+  /* background-color: black; */
+}
+
+.image-2 {
+  background-image: url(./../img/music.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 1000px;
+}
+
+.image-3 {
+  background-image: url(./../img/irl.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 1000px;
+}
+
+.image-4 {
+  background-image: url(./../img/mint.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 1000px;
+}
+
+.image-5 {
+  background-image: url(./../img/mint-collection.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 1000px;
+}
+
+.image-6 {
+  background-image: url(./../img/your-nft.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 1000px;
+}
+
+.right {
+  text-align: end;
+  font-size: larger;
+  padding-left: 4%;
+  /* border: 1px solid; */
+  width: 50%;
+  margin-left: auto;
+  margin-right: -40px;
+  line-height: 1.5;
+}
+h1.py-5 {
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+h1.py-5 {
+  text-align: center;
+}
+
+a.nav-link {
+  width: max-content;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  width: 50%;
+  margin-left: 60%;
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+a {
+  color: white !important ;
+  padding-left: 5% !important;
+  text-decoration: none !important;
+  font-family: 'More Sugar', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+iframe {
+  border-radius: 12px;
+  width: 90%;
+  height: 355px;
+}
+
+.collection {
+  border-radius: 12px;
+  width: 50%;
+  height: 70px;
+  position: relative;
+  margin-left: 50%;
+  margin-top: 10%;
+  font-size: smaller;
+}
+
+.btn-mint {
+  width: 22%;
+  font-size: larger;
+  margin-right: 30%;
+  margin-top: 5%;
+  background-color: #1b85b7;
+  border: 1px;
+  border-radius: 10%;
+}
+
+img.mint-img {
+  width: 30%;
+}
